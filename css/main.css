@@ -1,0 +1,60 @@
+/* DEVELOPER: Daniel Rodriguez, IS117-006, Spring 2023 */
+html body{
+    background-color:rgb(58, 58, 58);
+    color: white;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6f42c1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+.dropdown-menu{
+    background-color: #6f42c1;
+    color:white;
+}
+
+.dropdown-item{
+  color:white;
+}
+
+.title{
+    text-align: center;
+}
+
+.subtitle{
+    text-align:center;
+}
+
+.card-text{
+  color:black;
+}
+
+.card-title{
+  color:black;
+}
+
+.carousel-item{
+  width:50%;
+  margin: 0 auto;
+  float: none;
+}
+
+
+.list-group-item active{
+  background-color: #6f42c1;
+}
+
+a{
+color:#f2ff3c;
+}
+
+.categorylink{
+  color:blue;
+}

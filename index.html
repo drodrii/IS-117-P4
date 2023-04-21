@@ -1,0 +1,124 @@
+<!-- DEVELOPER: Daniel Rodriguez, IS117-006, Spring 2023 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Game Corner</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+        justify-content-start
+        navbar-dark
+        col-12" style="background-color: #6f42c1;">
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">The Game Corner</a>
+    <!-- Responsive Button for the smaller menu -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <!-- Links -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                   data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Reviews
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="reviews.html">All Reviews</a>
+                    <a class="dropdown-item" href="bestof.html">Best Of</a>
+                    <a class="dropdown-item" href="worstof.html">Worst Of</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+
+            <!-- Dropdown -->
+
+        </ul>
+    </div>
+</nav>
+</div>
+<br>
+<h1 class="title">Welcome to The Game Corner!</h1>
+<h4 class="subtitle">Check out reviews of video games new and old from a long time fan!</h4>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="card" >
+                <img class="card-img-top" src="images/mpr.png" alt="Metroid Prime: Remastered">
+                <div class="card-body">
+                    <p class="card-text">Does the 2002 classic hold up in 2023? <a class="categorylink" href="reviews.html#mpr">Find out!</a></p>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card" >
+                <img class="card-img-top" src="images/mgs.jpg" alt="Metal Gear Solid">
+                <div class="card-body">
+                    <p class="card-text">With recent rumors of a series revival, <a class="categorylink" href="reviews.html#mgs">let's take a look at the game that started it all!</a></p>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card" >
+                <img class="card-img-top" src="images/doome.jpg" alt="DOOM Eternal">
+                <div class="card-body">
+                    <p class="card-text">I can't stop revisiting <a class="categorylink" href="reviews.html#doom">DOOM Eternal!</a> Is this game still in your top 5 of the 2020s so far?</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<br>
+<br>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span>&copy; Daniel Rodriguez 2023 |  Privacy Statement  |  Terms of Service</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
